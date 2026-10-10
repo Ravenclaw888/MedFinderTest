@@ -22,6 +22,11 @@
       <div id="symptoms" class="symptoms" aria-label="Symptoms"></div>
       <label for="diagnosis">Preliminary diagnosis or finding <span>(optional)</span></label>
       <input id="diagnosis" type="text" placeholder="e.g., atrial fibrillation, kidney stone, thyroid nodule">
+      <label for="diagnosisPicker">Browse preliminary diagnoses <span>(optional)</span></label>
+      <select id="diagnosisPicker">
+        <option value="">Choose a preliminary diagnosis…</option>
+      </select>
+      <p class="muted picker-note">Selecting an item adds it to the text field; you can still type, edit, or clear it.</p>
       <label for="details">Supporting details <span>(optional)</span></label>
       <textarea id="details" rows="3" placeholder="Add clinician-provided context only."></textarea>
       <button id="search" type="button">Find candidate pathways</button>
