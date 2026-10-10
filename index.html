@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MedFinder: cited clinical-navigation discussion aid.">
+  <title>MedFinder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <div><p class="eyebrow">Clinical-navigation discussion aid</p><h1>MedFinder</h1></div>
+      <p>Transparent, source-linked candidate specialty pathways. This is not a diagnostic tool, emergency triage service, or automated referral system.</p>
+    </header>
+
+    <section class="warning"><strong>Urgent safety note:</strong> If someone may be having a medical emergency, call local emergency services now. Do not wait for this tool’s results.</section>
+
+    <section class="panel" aria-labelledby="input-title">
+      <h2 id="input-title">Find candidate specialties</h2>
+      <p class="muted">Choose symptoms and/or enter a clinician-provided preliminary diagnosis. Results show explicit rule matches only—not probability or diagnosis.</p>
+      <div id="symptoms" class="symptoms" aria-label="Symptoms"></div>
+      <label for="diagnosis">Preliminary diagnosis or finding <span>(optional)</span></label>
+      <input id="diagnosis" type="text" placeholder="e.g., atrial fibrillation, kidney stone, thyroid nodule">
+      <label for="details">Supporting details <span>(optional)</span></label>
+      <textarea id="details" rows="3" placeholder="Add clinician-provided context only."></textarea>
+      <button id="search" type="button">Find candidate pathways</button>
+    </section>
+
+    <section id="results" aria-live="polite"></section>
+
+    <section class="panel callsheet" aria-labelledby="callsheet-title">
+      <h2 id="callsheet-title">Hospital call sheet <span class="optional">optional</span></h2>
+      <p class="muted">Upload a CSV or text file for this browser session only. Expected columns: <code>specialty, subspecialty, hospital, doctor name, contact, notes</code>.</p>
+      <input id="callSheetFile" type="file" accept=".csv,.txt,text/csv,text/plain">
+      <div id="dropZone" class="drop-zone" tabindex="0">Or drag and drop a CSV or text call sheet here.</div>
+      <p id="sheetStatus" class="muted">No call sheet uploaded.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="sources-title">
+      <h2 id="sources-title">Medical information sources</h2>
+      <p class="muted">Each pathway card links the sources used for that mapping. This web edition retains the core cited pathways; the full NHS Inform A–Z catalogue remains available in the native project.</p>
+      <ul id="sources" class="sources"></ul>
+    </section>
+  </main>
+  <footer>MedFinder • Source-linked discussion aid • No information is sent anywhere; call-sheet data stays in this browser tab.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
