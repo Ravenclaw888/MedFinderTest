@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000011 /* ClinicalSpecialtyNavigatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001 /* ClinicalSpecialtyNavigatorApp.swift */; };
+		A00000000000000000000012 /* NavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002 /* NavigatorView.swift */; };
+		A00000000000000000000013 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* Models.swift */; };
+		A00000000000000000000014 /* RoutingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000004 /* RoutingEngine.swift */; };
+		A00000000000000000000015 /* ClinicalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000005 /* ClinicalData.swift */; };
+		A00000000000000000000016 /* NHSInformCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008 /* NHSInformCatalog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000001 /* ClinicalSpecialtyNavigatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicalSpecialtyNavigatorApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000002 /* NavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorView.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A00000000000000000000004 /* RoutingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingEngine.swift; sourceTree = "<group>"; };
+		A00000000000000000000005 /* ClinicalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicalData.swift; sourceTree = "<group>"; };
+		A00000000000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00000000000000000000007 /* MedFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000008 /* NHSInformCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHSInformCatalog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000031 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000032 /* Sources */,
+				A00000000000000000000033 /* App */,
+				A00000000000000000000034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000032 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001 /* ClinicalSpecialtyNavigatorApp.swift */,
+				A00000000000000000000002 /* NavigatorView.swift */,
+				A00000000000000000000003 /* Models.swift */,
+				A00000000000000000000004 /* RoutingEngine.swift */,
+				A00000000000000000000005 /* ClinicalData.swift */,
+				A00000000000000000000008 /* NHSInformCatalog.swift */,
+			);
+			name = Sources;
+			path = Sources/ClinicalSpecialtyNavigator;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000033 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000006 /* Info.plist */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000007 /* MedFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000041 /* ClinicalSpecialtyNavigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000051 /* Build configuration list for PBXNativeTarget "ClinicalSpecialtyNavigator" */;
+			buildPhases = (
+				A00000000000000000000022 /* Sources */,
+				A00000000000000000000021 /* Frameworks */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = ClinicalSpecialtyNavigator;
+			productName = MedFinder;
+			productReference = A00000000000000000000007 /* MedFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					A00000000000000000000041 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000052 /* Build configuration list for PBXProject "ClinicalSpecialtyNavigator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = A00000000000000000000031;
+			productRefGroup = A00000000000000000000034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A00000000000000000000041 /* ClinicalSpecialtyNavigator */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000011 /* ClinicalSpecialtyNavigatorApp.swift in Sources */,
+				A00000000000000000000012 /* NavigatorView.swift in Sources */,
+				A00000000000000000000013 /* Models.swift in Sources */,
+				A00000000000000000000014 /* RoutingEngine.swift in Sources */,
+				A00000000000000000000015 /* ClinicalData.swift in Sources */,
+				A00000000000000000000016 /* NHSInformCatalog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A00000000000000000000073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_LANGUAGE = en;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codex.clinicalspecialtynavigator;
+				PRODUCT_NAME = MedFinder;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_LANGUAGE = en;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codex.clinicalspecialtynavigator;
+				PRODUCT_NAME = MedFinder;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000051 /* Build configuration list for PBXNativeTarget "ClinicalSpecialtyNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (A00000000000000000000073 /* Debug */, A00000000000000000000074 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000052 /* Build configuration list for PBXProject "ClinicalSpecialtyNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (A00000000000000000000071 /* Debug */, A00000000000000000000072 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000061 /* Project object */;
+}
